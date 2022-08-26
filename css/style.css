@@ -575,6 +575,10 @@ mark,
   height: auto;
 }
 
+.gallaryImg {
+  height: 260px !important;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -2770,8 +2774,10 @@ fieldset:disabled a.btn {
 
 .btn-secondary:hover {
   color: #fff;
-  background-color: #001d29;
-  border-color: #00141c;
+  /* background-color: #001d29; */
+  /* border-color: #00141c; */
+  background-color: #F5AE41;
+  border-color: #E63827;
 }
 
 .btn-secondary:focus,
@@ -4569,15 +4575,40 @@ input[type="button"].btn-block {
   white-space: nowrap;
 }
 
+.topnavbar {
+  position: sticky;
+  top: 0px;
+}
+
 .title {
   font-family: 'Tinos', serif;
-  color: #000;
+  color: #ffffff;
   font-size: 17px;
+  letter-spacing: 2px;
+}
+
+.footerBG {
+  background-color: #17A2B8;
+}
+
+.footerHead {
+  font-size: 28px;
+  line-height: 40px;
 }
 
 @media only screen and (max-width: 600px) {
   .logo-name {
     font-size: 0.7em;
+  }
+
+  .footerHead {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  .footerHead {
+    font-size: 16px;
   }
 }
 
@@ -6990,7 +7021,7 @@ a.close.disabled {
 }
 
 @media only screen and (max-width: 992px) {
-  .mataswarsati{
+  .mataswarsati {
     margin-top: 30px;
   }
 }
@@ -10990,8 +11021,7 @@ a.text-dark:focus {
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  /* color: #17a2b8; */
-  color: #7136ffeb;
+  color: #17A2B8;
 }
 
 @media (max-width: 991.98px) {
@@ -11050,7 +11080,8 @@ a.text-dark:focus {
 
 .team .team-social {
   top: 0;
-  background: rgba(23, 162, 184, 0.8);
+  /* background: rgba(23, 162, 184, 0.8); */
+  background-color: #F6B300;
   opacity: 0;
   z-index: 1;
   transition: .5s;
