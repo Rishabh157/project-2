@@ -4574,10 +4574,13 @@ input[type="button"].btn-block {
 }
 
 .title {
-  font-family: 'Tinos', serif;
   color: #ffffff;
   font-size: 17px;
   letter-spacing: 2px;
+}
+
+.marginTOP {
+  margin-top: 85px;
 }
 
 .footerBG {
@@ -4587,6 +4590,11 @@ input[type="button"].btn-block {
 .footerHead {
   font-size: 28px;
   line-height: 40px;
+}
+
+.teachers {
+  border-radius: 100%;
+  border: 1px solid #e1dcdc;
 }
 
 @media only screen and (max-width: 600px) {
@@ -7027,7 +7035,8 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #00394f !important;
+  /* background-color: #00394f !important; */
+  background-color: #17A2B8 !important;
 }
 
 a.bg-secondary:hover,
@@ -11015,6 +11024,7 @@ a.text-dark:focus {
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
   color: #17A2B8;
+  /* background-color: #f5ae41; */
 }
 
 @media (max-width: 991.98px) {
@@ -11073,7 +11083,6 @@ a.text-dark:focus {
 
 .team .team-social {
   top: 0;
-  /* background: rgba(23, 162, 184, 0.8); */
   background-color: #F6B300;
   opacity: 0;
   z-index: 1;
